@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            padding: 5px;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            background-color: black;
+        }
+
+        nav>ul {
+            list-style-type: none;
+            display: flex;
+            font-style: normal;
+            margin: 10px;
+        }
+
+        nav>ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 28px;
+            margin: 10px;
+        }
+
+        ul li a:hover {
+            color: rgb(237, 4, 4);
+            text-decoration: none;
+            font-size: 28px;
+            margin: 10px;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .icon {
+            background-color: rgba(4, 255, 255, 0.633);
+            border-radius: 36px;
+            width: fit-content;
+            padding: 3px;
+        }
+
+        section {
+            background-image: url(https://t3.ftcdn.net/jpg/02/11/78/44/360_F_211784419_gNxyMUMvxRucv4aI03ksAAKPRxyGlYRH.jpg);
+            width: 100vw;
+            height: 70vh;
+            display: flex;
+            justify-content: space-around;
+            background-position: center;
+            background-color: #cccccc;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .sec {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100vw;
+            height: 20vh;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <div class="icon">DS</div>
+                <div class="name">Deepak saini</div>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <div class="text">
+
+            </div>
+            <div class="img">
+
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+        <div class="sec" id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Feature 1: Description</li>
+                <li>Feature 2: Description</li>
+                <li>Feature 3: Description</li>
+            </ul>
+            </div">
+
+            <div class="sec" id="pricing">
+                <h2>Pricing</h2>
+                <p>Affordable plans starting at just $9.99/month.</p>
+            </div>
+
+            <div class="sec" id="contact">
+                <h2>Contact Us</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Brand. All rights reserved.</p>
+        <p>&copy; 2024 Your Brand. All rights reserved.</p>
+        <p>&copy; 2024 Your Brand. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
